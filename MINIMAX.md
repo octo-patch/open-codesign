@@ -28,7 +28,7 @@ Prices are USD per million tokens. The model metadata below mirrors the shared p
 
 | Model | Context | Input | Output | Cache read | Cache write | Input modalities | Thinking |
 | --- | ---: | ---: | ---: | ---: | ---: | --- | --- |
-| `MiniMax-M3` | 1,000,000 | 0.30 | 1.20 | 0.06 | null | Text, image, video | Adaptive, disabled |
+| `MiniMax-M3` | 1,000,000 | 0.60 | 2.40 | 0.12 | null | Text, image, video | Adaptive, disabled |
 | `MiniMax-M2.7` | 204,800 | 0.30 | 1.20 | 0.06 | 0.375 | Text | Always on |
 
 `MiniMax-M3` has tiered pricing based on input length and service tier:

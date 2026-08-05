@@ -46,6 +46,12 @@ describe('config v3 schema', () => {
       {
         modelId: 'MiniMax-M3',
         contextWindow: 1_000_000,
+        pricingUsdPerMillionTokens: {
+          input: 0.6,
+          output: 2.4,
+          cacheRead: 0.12,
+          cacheWrite: null,
+        },
         inputModalities: ['text', 'image', 'video'],
         thinking: ['adaptive', 'disabled'],
       },
